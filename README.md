@@ -3,7 +3,7 @@
 Image Editor with Angular
 
 ## Library
-[Angular-Cropper](https://github.com/matheusdavidson/angular-cropperjs) is used for this demo. This plugin bases on [Cropper.js](https://github.com/fengyuanchen/cropperjs). Cropper.js provides functions:
+[Angular-Cropper](https://github.com/matheusdavidson/angular-cropperjs) is used for this demo. This plugin bases on [Cropper.js](https://github.com/fengyuanchen/cropperjs). Cropper.js is javascript library and provides functions:
 * Zoom image
 * Resize image
 * Rotate image
