@@ -20,7 +20,7 @@ export class AppComponent {
     }.bind(this)
   });
 
-  // slider values
+  // slider values to zoom image
   sliderValue = 0;
   preValue = 0;
 
