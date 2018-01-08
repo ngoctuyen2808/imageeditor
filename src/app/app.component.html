@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<input type="file" (change)="fileChangeEvent($event)" placeholder="Upload file..." />
+<div *ngIf="imageUrl">
+  <button (click)="zoomIn()">+</button>
+  <button (click)="zoomOut()">-</button>
+  <button (click)="cropEvent()">Crop</button>
+  <mat-slider
+  [(ngModel)]="sliderValue"
+  (change)="onChange()"></mat-slider>
+  <angular-cropper #angularCropper [cropperOptions]="config" [imageUrl]="imageUrl"></angular-cropper>
+  <div *ngIf="croppedImage"><img class="croppedImage" [src]="croppedImage"></div>
+</div>
+
