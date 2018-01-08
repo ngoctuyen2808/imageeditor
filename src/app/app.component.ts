@@ -117,6 +117,7 @@ export class AppComponent {
 export class DialogOverviewExampleDialog {
   croppedImage = null;
 
+  // constructor for dialog
   constructor(
     public dialogRef: MatDialogRef<DialogOverviewExampleDialog>,
     @Inject(MAT_DIALOG_DATA) public data: any) {
