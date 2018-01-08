@@ -1,4 +1,4 @@
-# imageeditor
+# Image Editor
 
 Image Editor with Angular
 
